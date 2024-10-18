@@ -56,8 +56,8 @@ canvas = tk.Canvas(root, height=100, width=100)
 canvas.pack()
 
 
-img = Image.open("flight.jpg")  # JPEG veya PNG dosya yolunu yaz
-img = img.resize((200, 100))  # Resmi uygun boyutlara göre yeniden boyutlandır
+img = Image.open("flight.jpg")  
+img = img.resize((200, 100))  
 logo = ImageTk.PhotoImage(img)
 
 
